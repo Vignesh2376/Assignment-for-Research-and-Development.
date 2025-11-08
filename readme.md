@@ -1,0 +1,11 @@
+RESEARCH AND DEVELOPMENT ASSIGNEMENT
+SUBMITTED BY VIGNESH TR
+
+FINAL VALUES OF THE UNKNOWN 
+THETA=28.1184
+M=0.0213
+X=54.90
+
+EQUATION IN LATEX FORMAT
+\left(t*(cos(0.49083)-e^{0.0213\left|t\right|}\cdot\sin(0.3t)\sin(0.49083)+54.90,42+t*\sin(0.49083)+e^{0.0213\left|t\right|}\cdot\sin(0.3t)\cos(0.49083)\right)
+
