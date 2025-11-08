@@ -1,0 +1,5 @@
+Our goal is to minimize the L1 distance between the observed data and the curve produced by the model.
+That is min L1(THETA, M, X)
+Two optimization was used
+1. Global Search - randomly explores all the possible combinations of THETA, M and X and finds the region where the L1 is smallest.
+2. Local refinment to improve the value got from global search for more precision.
