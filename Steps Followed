@@ -1,0 +1,13 @@
+The term t cos(0)sin(0) defines a straight line rotated by an angle 0.
+The csv files contain the points x y which are points lying on the curve.
+t was assumed to vary normally between 6 and 60.
+To check how well the model matches the data, Mean L1 distance was used.
+The pron=blem is non linear so two types of optimization was used, Global Optimization and Local Refinement.
+Implementation summary is as given below:
+Loads the csv file.
+Assigns uniform t values between 6 and 60.
+Defines the curve model function.
+Define the L1 loss.
+Run the differential evalution.
+Find the best values for 0, X, M.
+Compute the L1.
